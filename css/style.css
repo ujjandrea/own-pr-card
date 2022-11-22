@@ -1,0 +1,123 @@
+html {
+    display: block;
+}
+
+body {
+    background: url("../pics/bg-body.jpg") transparent no-repeat center center fixed;
+    height: 100vh;
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+img {
+    width: 140px;
+    height: 180px;
+    border-radius: 42%;
+    padding: 1px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 0.8);
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(20%);
+    transition: all 0.5s ease-in-out;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 2.6vh;
+}
+
+div {
+    display: block;
+}
+
+.pr-card {
+    background-color: rgba(255, 204, 204, 0.6);
+    border-radius: 5px;
+    width: 450px;
+    height: 100vh;
+    position: absolute;
+    top: 20vh;
+    max-width: calc(100vw - 10px);
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+.about {
+    margin-bottom: 10%;
+    color: #595959;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+p {
+    text-align: justify;
+}
+
+section {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+.head,
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.head,
+.links {
+    text-align: center;
+}
+
+.pr-pic {
+    margin-top: -70px;
+}
+
+.head {
+    margin-bottom: 0;
+    padding: 5% 5% 0 5%;
+    color: black;
+}
+
+img:hover {
+    transform: scale(1.1);
+    filter: grayscale(10%);
+}
+
+.headline {
+    line-height: 2em;
+    color: #1a1a1a;
+}
+
+.place {
+    display: inline-block;
+}
+
+.place.i-tag {
+    float: left;
+}
+
+.budapest {
+    font-family: 'Space Grotesk', sans-serif;
+    float: right;
+}
+
+.content {
+    padding: 5%;
+    margin: auto auto;
+    text-align: center;
+}
+
+p:hover {
+    color: black;
+}
